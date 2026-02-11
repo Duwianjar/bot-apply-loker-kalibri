@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "kalibrr_click\\.py$",
+        "cmd": "${workspaceFolder}/ensure_signature_on_save.sh ${file}"
+      }
+    ]
+  }
+}
