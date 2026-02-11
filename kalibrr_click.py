@@ -12,7 +12,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-import time 
+import time  
+import webbrowser
 
 SIGNATURE_BLOCK = '''"""
 Bot Apply Loker Kalibri
@@ -51,6 +52,95 @@ def _find_clickable(driver, selectors, max_wait=2.0, interval=0.2):
     return last_el if last_el and last_el.is_displayed() and last_el.is_enabled() else None
 
 
+def _trim_tabs(driver, keep_last=5):
+    try:
+        handles = driver.window_handles
+    except Exception:
+        return
+    if len(handles) <= keep_last:
+        return
+
+    current = driver.current_window_handle
+    to_close = handles[:-keep_last]
+    for h in to_close:
+        if h != current:
+            try:
+                driver.switch_to.window(h)
+                driver.close()
+            except Exception:
+                continue
+
+    try:
+        driver.switch_to.window(current)
+    except Exception:
+        try:
+            driver.switch_to.window(driver.window_handles[-1])
+        except Exception:
+            pass
+
+
+def _job_title_selectors_for_retry():
+    return [
+        (By.XPATH, "//div[contains(@class,'k-flex-1')]//a[(contains(@class,'k-font-bold') or contains(@class,'k-text-black')) and normalize-space()!='Partner Growth & Enablement Executive' and normalize-space()!='Business Analyst' and normalize-space()!='Terapkan Filter' and not(ancestor::button) and not(ancestor::kb-location-filter) and not(contains(@class,'k-text-caption')) and not(ancestor::*[contains(@class,'k-text-caption')]) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'tangerang')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'penuh waktu')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'cedar park')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'healthcare virtual assistant hva')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'digital marketere, ecommerce, multimedia editing')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'navigate_before')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'first_page'))]"),
+        (By.XPATH, "//div[contains(@class,'k-flex-1')]//div[(contains(@class,'k-font-bold') or contains(@class,'k-text-black')) and .//div[normalize-space()!='Partner Growth & Enablement Executive' and normalize-space()!='Business Analyst' and normalize-space()!='Terapkan Filter' and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'tangerang')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'penuh waktu')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'cedar park')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'healthcare virtual assistant hva')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'digital marketere, ecommerce, multimedia editing')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'navigate_before')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'first_page'))] and not(ancestor::button) and not(ancestor::kb-location-filter) and not(ancestor::*[contains(@class,'k-text-caption')])]"),
+        (By.XPATH, "//div[contains(@class,'k-font-bold') and contains(@class,'k-text-black') and contains(@class,'lg:k-flex') and .//div[normalize-space()!='Partner Growth & Enablement Executive' and normalize-space()!='Business Analyst' and normalize-space()!='Terapkan Filter' and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'tangerang')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'penuh waktu')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'cedar park')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'healthcare virtual assistant hva')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'digital marketere, ecommerce, multimedia editing')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'navigate_before')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'first_page'))]]"),
+    ]
+
+
+def _retry_click_job_title_until_lamar(driver, lamar_selectors, max_seconds=50):
+    print("Sebelum buka tab baru, coba klik job title dulu sampai 50 detik...")
+    retry_until = time.monotonic() + max_seconds
+    job_selectors = _job_title_selectors_for_retry()
+    lanjutkan_selectors = [
+        (By.XPATH, "//a[normalize-space()='Terus lanjutkan']"),
+        (By.XPATH, "//a[contains(@class,'k-btn-primary') and normalize-space()='Terus lanjutkan']"),
+    ]
+    while time.monotonic() < retry_until:
+        lanjutkan_btn = _find_clickable(driver, lanjutkan_selectors, max_wait=0.8)
+        if lanjutkan_btn:
+            print("Terdeteksi tombol 'Terus lanjutkan', langsung buka tab baru.")
+            return None, True
+
+        lamar_btn = _find_clickable(driver, lamar_selectors, max_wait=1.0)
+        if lamar_btn:
+            print("Tombol 'Lamar Sekarang' ditemukan sebelum buka tab baru.")
+            return lamar_btn, False
+
+        job_title = _find_clickable(driver, job_selectors, max_wait=1.5)
+        if job_title:
+            try:
+                child = job_title.find_elements(By.XPATH, ".//div")[0]
+                driver.execute_script("arguments[0].click();", child)
+            except Exception:
+                driver.execute_script("arguments[0].click();", job_title)
+            print("Klik job title (Odoo terdeteksi), lanjut klik Lamar1.")
+        time.sleep(0.3)
+
+    print("Sudah 50 detik klik job title terus, tetap tidak menemukan 'Lamar Sekarang'.")
+    return None, False
+
+
+def _open_job_board_new_tab(driver, lamar_selectors):
+    retry_lamar_btn, force_open_now = _retry_click_job_title_until_lamar(
+        driver, lamar_selectors, max_seconds=50
+    )
+    if retry_lamar_btn:
+        return retry_lamar_btn, False
+
+    if force_open_now:
+        print("Bypass tunggu 50 detik karena tombol 'Terus lanjutkan' terdeteksi.")
+    print("Tetap tidak menemukan 'Lamar Sekarang', buka tab baru...")
+    try:
+        driver.switch_to.new_window("tab")
+        driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
+    except Exception:
+        driver.execute_script("window.open('https://jobseeker.kalibrr.com/job-board/co/Indonesia/1', '_blank');")
+        driver.switch_to.window(driver.window_handles[-1])
+    time.sleep(0.2)
+    _trim_tabs(driver, keep_last=5)
+    return None, True
+
+
 def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
     options = webdriver.ChromeOptions()
     options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
@@ -81,6 +171,7 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
 
     run_start = time.monotonic()
     for i in range(1, jumlah + 1):
+        _trim_tabs(driver, keep_last=5)
         if time.monotonic() - run_start > max_run_seconds:
             print("Batas waktu run tercapai, restart dari awal...")
             return False
@@ -148,7 +239,7 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
                         driver.execute_script("arguments[0].click();", child)
                     except Exception:
                         driver.execute_script("arguments[0].click();", job_title)
-                    print("Klik job title (Odoo terdeteksi), lanjut klik Lamar.")
+                    print("Klik job title (Odoo terdeteksi), lanjut klik Lamar2.")
         except Exception:
             pass
         step_start = time.monotonic()
@@ -173,7 +264,7 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
                         driver.execute_script("arguments[0].click();", child)
                     except Exception:
                         driver.execute_script("arguments[0].click();", job_title)
-                    print("Klik job title (Odoo terdeteksi), lanjut klik Lamar.")
+                    print("Klik job title (Odoo terdeteksi), lanjut klik Lamar3.")
                     odoo_clicked = True
         except Exception:
             pass
@@ -196,9 +287,9 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
                         # Fallback untuk judul job di luar k-flex-1
                         (By.XPATH, "//div[contains(@class,'k-font-bold') and contains(@class,'k-text-black') and contains(@class,'lg:k-flex') and .//div[normalize-space()!='Partner Growth & Enablement Executive' and normalize-space()!='Business Analyst' and normalize-space()!='Terapkan Filter' and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'tangerang')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'penuh waktu')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'cedar park')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'healthcare virtual assistant hva')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'digital marketere, ecommerce, multimedia editing')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'navigate_before')) and not(contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'first_page'))]]"),
                     ]
-                    retry_until = time.monotonic() + 10
+                    retry_until = time.monotonic() + 50
                     while time.monotonic() < retry_until:
-                        job_title = _find_clickable(driver, job_selectors, max_wait=3.0)
+                        job_title = _find_clickable(driver, job_selectors, max_wait=2.0)
                         if job_title:
                             try:
                                 child = job_title.find_elements(By.XPATH, ".//div")[0]
@@ -206,32 +297,27 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
                             except Exception:
                                 driver.execute_script("arguments[0].click();", job_title)
                             print("Klik job title setelah banner 'Lamaran terkirim'.")
-                            time.sleep(0.5)
-                            lamar_btn = _find_clickable(driver, lamar_selectors, max_wait=3.0)
+                            time.sleep(0.3)
+                            lamar_btn = _find_clickable(driver, lamar_selectors, max_wait=1.0)
                             if lamar_btn:
-                                driver.execute_script("arguments[0].click();", lamar_btn)
-                                time.sleep(0.5)
-                                submit_btn = _find_clickable(driver, submit_selectors, max_wait=3.0)
-                                if submit_btn:
-                                    driver.execute_script("arguments[0].click();", submit_btn)
-                                else:
-                                    print("Setelah klik job title, tombol 'Kirimkan Profil' tidak ditemukan.")
+                                print("Tombol 'Lamar Sekarang' ditemukan setelah klik job title.")
                                 break
-                        time.sleep(0.5)
-                    # Setelah 40 detik, lanjut ke fallback tab baru
+                        time.sleep(0.3)
+
+                    if not lamar_btn:
+                        print("Sudah 50 detik klik job title, tetap tidak menemukan tombol 'Lamar Sekarang'.")
             except Exception:
                 pass
 
-            print("Tombol 'Lamar Sekarang' tidak ditemukan di job-board, buka tab baru...")
-            try:
-                driver.switch_to.new_window("tab")
-                driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
-            except Exception:
-                driver.execute_script("window.open('https://jobseeker.kalibrr.com/job-board/co/Indonesia/1', '_blank');")
-                driver.switch_to.window(driver.window_handles[-1])
-            time.sleep(0.2)
-            # lanjut ke iterasi berikutnya (ulang dari tab baru)
-            continue
+            if not lamar_btn:
+                lamar_btn, opened_new_tab = _open_job_board_new_tab(driver, lamar_selectors)
+                if not lamar_btn and not opened_new_tab:
+                    print("Tidak menemukan 'Lamar Sekarang' meski retry, lanjut loop berikutnya.")
+                    continue
+                if opened_new_tab:
+                    # lanjut ke iterasi berikutnya (ulang dari tab baru)
+                    continue
+                # lanjut ke iterasi berikutnya (ulang dari tab baru)
 
         print("Klik tombol 'Lamar Sekarang'...")
         driver.execute_script("arguments[0].click();", lamar_btn)
@@ -278,13 +364,12 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
             submit_btn = _find_clickable(driver, submit_selectors, max_wait=2.0)
             if not submit_btn:
                 print("Masih tidak menemukan 'Kirimkan Profil', buka tab baru dan ulangi...")
-                try:
-                    driver.switch_to.new_window("tab")
-                    driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
-                except Exception:
-                    driver.execute_script("window.open('https://jobseeker.kalibrr.com/job-board/co/Indonesia/1', '_blank');")
-                    driver.switch_to.window(driver.window_handles[-1])
-                continue
+                _, opened_new_tab = _open_job_board_new_tab(driver, lamar_selectors)
+                if opened_new_tab:
+                    continue
+                submit_btn = _find_clickable(driver, submit_selectors, max_wait=1.0)
+                if not submit_btn:
+                    continue
 
         driver.execute_script("arguments[0].click();", submit_btn)
         # Beri jeda singkat agar klik ter-register sebelum membuka tab baru
@@ -293,13 +378,9 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
         # Jika langkah ini terlalu lama, buka tab baru dan ulangi proses
         if time.monotonic() - step_start > step_limit:
             print("Langkah terlalu lama, buka tab baru dan ulangi...")
-            try:
-                driver.switch_to.new_window("tab")
-                driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
-            except Exception:
-                driver.execute_script("window.open('https://jobseeker.kalibrr.com/job-board/co/Indonesia/1', '_blank');")
-                driver.switch_to.window(driver.window_handles[-1])
-            continue
+            _, opened_new_tab = _open_job_board_new_tab(driver, lamar_selectors)
+            if opened_new_tab:
+                continue
 
         # Jika muncul banner "Lamaran terkirim", kembali ke job board
         try:
@@ -315,25 +396,7 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
 
         if i < jumlah:
             print("Buka tab baru ke job board untuk proses berikutnya...")
-            try:
-                driver.switch_to.new_window("tab")
-                driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
-            except Exception:
-                driver.execute_script("window.open('https://jobseeker.kalibrr.com/job-board/co/Indonesia/1', '_blank');")
-                driver.switch_to.window(driver.window_handles[-1])
-
-            # Jika tab sudah >5, tutup tab lama agar hanya 5 tab terakhir tersisa
-            handles = driver.window_handles
-            if len(handles) > 5:
-                current = driver.current_window_handle
-                # tutup tab lebih lama, sisakan 5 tab terakhir
-                to_close = handles[:-5]
-                for h in to_close:
-                    if h != current:
-                        driver.switch_to.window(h)
-                        driver.close()
-                # Kembali ke tab terbaru (current)
-                driver.switch_to.window(current)
+            _open_job_board_new_tab(driver, lamar_selectors)
 
     print("Selesai.")
     return True
@@ -352,4 +415,6 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Error: {e}. Restart dari awal...")
             continue
+    print("Waktu proses habis, membuka https://daaw.online ...")
+    webbrowser.open("https://daaw.online")
     print("Selesai 50 menit.")

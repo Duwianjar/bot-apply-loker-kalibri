@@ -197,7 +197,7 @@ Buka terminal baru (biarkan Chrome debug tetap hidup), lalu:
 
 ### macOS
 ```bash
-python3 kalibrr_click.py
+.venv/bin/python kalibrr_click.py
 ```
 
 ### Windows (PowerShell)
@@ -207,6 +207,17 @@ python kalibrr_click.py
 
 ### Linux
 ```bash
+.venv/bin/python kalibrr_click.py
+```
+
+### Kenapa tidak pakai `python3 kalibrr_click.py`?
+Di project ini, dependency dipasang di virtual environment `.venv`.  
+Command `python3` sering mengarah ke Python global/system, jadi package dari `.venv` tidak terbaca dan script bisa gagal (mis. `ModuleNotFoundError`).
+
+Kalau tetap ingin menjalankan dengan `python3`, aktifkan dulu virtual environment:
+
+```bash
+source .venv/bin/activate
 python3 kalibrr_click.py
 ```
 
