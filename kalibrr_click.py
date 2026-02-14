@@ -132,9 +132,9 @@ def _open_job_board_new_tab(driver, lamar_selectors):
     print("Tetap tidak menemukan 'Lamar Sekarang', buka tab baru...")
     try:
         driver.switch_to.new_window("tab")
-        driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
+        driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/te/it/1")
     except Exception:
-        driver.execute_script("window.open('https://jobseeker.kalibrr.com/job-board/co/Indonesia/1', '_blank');")
+        driver.execute_script("window.open('https://jobseeker.kalibrr.com/job-board/co/Indonesia/te/it/1', '_blank');")
         driver.switch_to.window(driver.window_handles[-1])
     time.sleep(0.2)
     _trim_tabs(driver, keep_last=5)
@@ -149,7 +149,7 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
     driver.set_page_load_timeout(30)
     wait = WebDriverWait(driver, 10)
     print("Membuka halaman Kalibrr...")
-    driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
+    driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/te/it/1")
 
     stop_urls = [
         "https://jobseeker.kalibrr.com/c/astro-technologies-indonesia/jobs/263679/senior-data-engineer",
@@ -199,7 +199,7 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
         cur = driver.current_url.split("?")[0]
         if cur in stop_urls:
             print("Terdeteksi halaman job detail, kembali ke job board...")
-            driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
+            driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/te/it/1")
 
         print(f"Proses ke-{i} dari {jumlah}")
         # Jika halaman mengandung kata "Odoo", klik job title tertentu
@@ -390,7 +390,7 @@ def buka_kalibrr_dan_klik_lamar(jumlah=100, max_run_seconds=300):
             )
             if banner:
                 print("Banner 'Lamaran terkirim' terdeteksi, kembali ke job board...")
-                driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")
+                driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/te/it/1")
         except Exception:
             pass
 
