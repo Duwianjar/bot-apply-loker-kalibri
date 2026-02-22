@@ -1,6 +1,6 @@
-# Bot Apply Loker Kalibri
+# JobSeek Bot Automation
 
-Script Python berbasis Selenium untuk membantu proses klik tombol **"Lamar Sekarang"** dan **"Kirimkan Profil"** di Kalibrr.
+Script Python berbasis Selenium untuk membantu proses automasi lamaran kerja di platform **JobStreet** dan **Kalibrr**.
 
 <div align="center" style="border:1px solid #e5e7eb; border-radius:12px; padding:16px; margin:12px 0;">
   <h2>Duwiaaw | Bot Automation Services</h2>
@@ -21,6 +21,14 @@ Gunakan script ini dengan tanggung jawab sendiri.
 Pastikan penggunaan tidak melanggar Terms of Service platform yang dipakai.
 
 ## Fitur
+### JobStreet
+- Membuka halaman job board JobStreet.
+- Klik "Lamaran Cepat" pada setiap loker yang ditemukan.
+- Mengisi otomatis **surat lamaran (cover letter)** dengan template.
+- Mengisi otomatis pertanyaan-pertanyaan umum dari rekruter.
+- Menyimpan riwayat lamaran yang berhasil terkirim.
+
+### Kalibrr
 - Membuka halaman job board Kalibrr.
 - Mencari tombol `Lamar Sekarang` secara otomatis.
 - Klik `Kirimkan Profil` jika tersedia.
@@ -28,7 +36,8 @@ Pastikan penggunaan tidak melanggar Terms of Service platform yang dipakai.
 - Loop otomatis sampai durasi selesai.
 
 ## Struktur Repo
-- `kalibrr_click.py`: script utama.
+- `jobstreet_click.py`: script automasi untuk JobStreet.
+- `kalibrr_click.py`: script automasi untuk Kalibrr.
 - `requirements.txt`: daftar dependency Python.
 
 ## Prasyarat
@@ -40,8 +49,8 @@ Pastikan penggunaan tidak melanggar Terms of Service platform yang dipakai.
 - `git --version` berhasil.
 - `python --version` (Windows) atau `python3 --version` (macOS/Linux) berhasil.
 - Chrome sudah dijalankan dengan mode remote debugging di port `9222`.
-- Sudah login akun Kalibrr di Chrome debug.
-- CV/profil Kalibrr sudah terisi lengkap.
+- Sudah **login akun JobStreet/Kalibrr** di Chrome debug.
+- CV/profil di platform terkait sudah terisi lengkap.
 
 ## 1. Install Python
 Pilih sesuai device/OS.
@@ -115,7 +124,7 @@ cd bot-apply-loker-kalibri
 ```
 
 Catatan:
-- Jangan pakai `cd : bot-apply-loker-kalibri` karena akan error.
+- Jangan pakai `cd : jobseek-bot` karena akan error.
 - Jika muncul `warning: You appear to have cloned an empty repository.`, berarti repo GitHub belum ada isi/commit. Pastikan kamu clone repo yang benar dan branch default sudah berisi file project.
 
 ## 4. Buat Virtual Environment
@@ -161,75 +170,114 @@ python3 -m pip install -r requirements.txt
 ```
 
 ## 6. Buka Chrome Dengan Remote Debugging
-Script ini butuh Chrome berjalan di port `9222`.
+Script ini butuh Chrome berjalan di port `9222` agar bisa terhubung ke sesi browser yang sudah login.
 
 ### macOS
 ```bash
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-kalibrr
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-jobseek
 ```
 
 ### Windows
 ```powershell
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome-kalibrr"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome-jobseek"
 ```
 
 Jika Chrome ada di `Program Files (x86)`, gunakan:
 
 ```powershell
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome-kalibrr"
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome-jobseek"
 ```
 
 ### Linux
 ```bash
-google-chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-kalibrr
+google-chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-jobseek
 ```
 
 Jika command `google-chrome` tidak ada, coba:
 
 ```bash
-chromium-browser --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-kalibrr
+chromium-browser --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-jobseek
 ```
 
 ## 7. Jalankan Script
-Sebelum menjalankan script, pastikan akun Kalibrr sudah login di Chrome yang dibuka dengan mode debug, dan data CV/profil sudah terisi lengkap.
+Sebelum menjalankan, pastikan **akun JobStreet atau Kalibrr sudah login** di Chrome yang dibuka dengan mode debug, dan data CV/profil sudah terisi lengkap.
 
-Buka terminal baru (biarkan Chrome debug tetap hidup), lalu:
+Buka terminal baru (biarkan Chrome debug tetap hidup), lalu pilih script yang ingin dijalankan.
 
-### macOS
+---
+
+### A. Menjalankan Bot JobStreet
+Script ini akan membuka URL JobStreet, mencari loker, dan mencoba melamar dengan "Lamaran Cepat".
+
+#### macOS
+```bash
+.venv/bin/python jobstreet_click.py
+```
+
+#### Windows (PowerShell)
+```powershell
+python jobstreet_click.py
+```
+
+#### Linux
+```bash
+.venv/bin/python jobstreet_click.py
+```
+
+---
+
+### B. Menjalankan Bot Kalibrr
+Script ini akan membuka URL Kalibrr dan mengklik "Lamar Sekarang".
+
+#### macOS
 ```bash
 .venv/bin/python kalibrr_click.py
 ```
 
-### Windows (PowerShell)
+#### Windows (PowerShell)
 ```powershell
 python kalibrr_click.py
 ```
 
-### Linux
+#### Linux
 ```bash
 .venv/bin/python kalibrr_click.py
 ```
 
-### Kenapa tidak pakai `python3 kalibrr_click.py`?
-Di project ini, dependency dipasang di virtual environment `.venv`.  
+---
+
+### Kenapa tidak pakai `python3 nama_script.py`?
+Di project ini, dependency dipasang di virtual environment `.venv`.
 Command `python3` sering mengarah ke Python global/system, jadi package dari `.venv` tidak terbaca dan script bisa gagal (mis. `ModuleNotFoundError`).
 
 Kalau tetap ingin menjalankan dengan `python3`, aktifkan dulu virtual environment:
 
 ```bash
+# macOS/Linux
 source .venv/bin/activate
-python3 kalibrr_click.py
+python3 jobstreet_click.py
+
+# Windows
+.venv\Scripts\Activate.ps1
+python jobstreet_click.py
 ```
 
 ## Contoh Output Saat Bot Jalan
-Contoh output normal di terminal (kurang lebih):
+Output di terminal akan bervariasi tergantung platform, namun contohnya seperti ini:
 
 ```text
+# Contoh JobStreet
+[INFO] Terhubung ke Chrome di port 9222
+[INFO] Membuka halaman JobStreet...
+[INFO] Job ID 12345: kartu loker diklik
+[INFO] Job ID 12345: mengisi surat lamaran...
+[INFO] Lamaran tersimpan: job-id=12345
+
+# Contoh Kalibrr
 [INFO] Connected to Chrome on 127.0.0.1:9222
 [INFO] Membuka halaman job board Kalibrr...
 [INFO] Menemukan tombol "Lamar Sekarang"
 [INFO] Klik "Kirimkan Profil" berhasil
-[INFO] Loop berikutnya...
 ```
 
 Jika muncul log berulang dan tidak ada error fatal, artinya bot sedang berjalan.
@@ -240,35 +288,32 @@ Jika muncul log berulang dan tidak ada error fatal, artinya bot sedang berjalan.
   - macOS/Linux: `deactivate`
   - Windows (PowerShell): `deactivate`
 
-## Cara Kerja Singkat
-- Script akan mencoba run berulang selama ~50 menit (`total_seconds = 3000`).
-- Tiap batch mencoba hingga 100 proses klik lamaran.
-- Jika flow macet, script akan retry dengan tab baru.
-
 ## Konfigurasi Cepat
-Edit parameter di bagian bawah `kalibrr_click.py`:
-- `total_seconds = 3000` -> total waktu script berjalan.
-- `buka_kalibrr_dan_klik_lamar(100, max_run_seconds=60)`:
-  - `100` = jumlah loop per batch.
-  - `60` = batas detik per batch sebelum restart.
-- Link job board default:
-  - `https://jobseeker.kalibrr.com/job-board/co/Indonesia/1`
+### JobStreet
+Untuk mengubah link pencarian kerja (misalnya berdasarkan filter tertentu):
 
-### Ganti Link Sesuai Filter (Remote/Daerah/Job Tertentu)
-1. Buka Kalibrr job board di browser.
-2. Pilih filter yang kamu inginkan:
-   - remote atau on-site
-   - kota/daerah tertentu
-   - posisi/job title tertentu
-3. Setelah filter terpasang, copy URL dari address bar browser.
-4. Buka `kalibrr_click.py`, lalu ganti link ini:
-   - `driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1")`
-5. Simpan file, lalu jalankan ulang script.
+1. Buka `jobstreet_click.py`.
+2. Cari dan ganti URL di dalam fungsi `main`:
+   ```python
+   parser.add_argument(
+       "--url",
+       default="https://www.jobstreet.co.id/id/id/jobs",  # <-- GANTI URL DI SINI
+       help="URL job board JobStreet yang akan dibuka.",
+   )
+   ```
+3. Simpan file, lalu jalankan ulang script.
 
-Contoh:
-```python
-driver.get("PASTE_LINK_HASIL_FILTER_DI_SINI")
-```
+Template surat lamaran juga bisa diubah di dalam fungsi `_buat_teks_surat_lamaran`.
+
+### Kalibrr
+Untuk mengubah link pencarian kerja:
+
+1. Buka `kalibrr_click.py`.
+2. Ganti link di dalam `try...finally` block:
+   ```python
+   driver.get("https://jobseeker.kalibrr.com/job-board/co/Indonesia/1") # <-- GANTI URL DI SINI
+   ```
+3. Simpan file, lalu jalankan ulang script.
 
 ## Troubleshooting
 - Error koneksi ke Chrome (`127.0.0.1:9222`):
