@@ -1,0 +1,26 @@
+Mode loop aktif: target 1 job non-skip per siklus, durasi total 10800 detik.
+
+=== Siklus 1 (elapsed 0s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90130980)
+Job ID 90130980: kartu loker tidak ditemukan.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 2 (elapsed 12s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90072341)
+Job ID 90072341: kartu loker tidak ditemukan.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 3 (elapsed 25s) ===
+Membuka halaman JobStreet IT...

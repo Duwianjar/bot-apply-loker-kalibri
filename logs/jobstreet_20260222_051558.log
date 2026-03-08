@@ -1,0 +1,42 @@
+Mode loop aktif: target 1 job non-skip per siklus, durasi total 10800 detik.
+
+=== Siklus 1 (elapsed 0s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90226838)
+Job ID 90226838: klik kartu loker...
+Job ID 90226838: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Support
+  - Perusahaan : Yayasan Pendidikan Kristen Buah Hati
+  - Lokasi     : Surabaya, Jawa Timur
+  - Apply URL  : https://id.jobstreet.com/id/job/90226838/apply?sol=3cb87a0118cc6a5f5b804dc0494d1691aa0497fe
+  - URL apply? : YA
+Job ID 90226838: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Support di Yayasan Pendidikan Kristen Buah Hati
+  - href      : https://id.jobstreet.com/id/job/90226838/apply?sol=3cb87a0118cc6a5f5b804dc0494d1691aa0497fe
+  - outerHTML : <a href="/id/job/90226838/apply?sol=3cb87a0118cc6a5f5b804dc0494d1691aa0497fe" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90226838: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90226838/apply?sol=3cb87a0118cc6a5f5b804dc0494d1691aa0497fe
+Job ID 90226838: buka link apply dari href...
+Job ID 90226838: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90226838/apply?sol=3cb87a0118cc6a5f5b804dc0494d1691aa0497fe
+Job ID 90226838: pilih tanpa surat lamaran...
+Job ID 90226838: klik 'Lanjut'...
+Job ID 90226838: masuk halaman role requirements, mulai isi form...
+Role requirements ronde-1: isi radio=0, dropdown=0, error-section=0
+Error panel terdeteksi setelah klik 'Lanjut':
+  - Are you available to travel for this role when required? - Silakan buat seleksi
+  - Are you available to work outside your usual hours when required? (e.g. weekends, evenings, public holidays) - Silakan buat seleksi
+Radio khusus: pertanyaan outside-hours dipilih 'Ya/Yes'.
+Role requirements ronde-2: isi radio=0, dropdown=0, error-section=3
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90226838/apply/profile?sol=3cb87a0118cc6a5f5b804dc0494d1691aa0497fe
+Job ID 90226838: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90226838: klik 'Lanjut' di halaman skill.
+Job ID 90226838: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90226838: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 0, total-job-page1: 32
+
+=== Siklus 2 (elapsed 26s) ===
+Membuka halaman JobStreet IT...

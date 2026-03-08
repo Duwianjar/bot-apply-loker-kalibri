@@ -1,0 +1,605 @@
+Mode loop aktif: target 1 job non-skip per siklus, durasi total 10800 detik.
+
+=== Siklus 1 (elapsed 0s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=89920425 | title=IT Support Mobility | company=PT Sinergi Wahana Gemilang
+  3. job-id=90188694 | title=STAFF IT | company=PT Lavalen Inter Nasional
+  4. job-id=90432244 | title=IT Staff | company=PT. Prodia Utama
+  5. job-id=89830617 | title=IT Support Network | company=PT TEKNOLOGI ANGKASA MAKMUR ABADI
+  6. job-id=90312147 | title=IT Support Team Leader | company=PT Visionet Data Internasional
+  7. job-id=89946709 | title=Supervisor IT Infrastructure | company=PT Cita Mineral Investindo Tbk
+  8. job-id=90147942 | title=IT Staff (Semarang) | company=PT Fumira
+  9. job-id=89910548 | title=Product IT Specialist | company=PT COBAS PERKAKAS JAYA
+  10. job-id=90273980 | title=IT Infrastruktur Staff | company=PT Jaya Wira Jerindo (Tribina Group)
+  11. job-id=90338343 | title=IT Operation | company=PT Kamoro Maxima Integra
+  12. job-id=90121625 | title=IT Support Hardware Salatiga | company=PT Erela
+  13. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  14. job-id=90242366 | title=IT System Network Engineer (Contract based) | company=PT ASURANSI SIMAS JIWA
+  15. job-id=90337291 | title=Senior IT Infrastructure Staff | company=PT Honda Trading Indonesia
+  16. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  17. job-id=89972346 | title=IT Staff | company=PT Vaksindo Satwa Nusantara
+  18. job-id=90462475 | title=Network Engineer | company=PT PRIME AGRI RESOURCES Tbk
+  19. job-id=90229622 | title=IT Support & Network Staff | company=-
+  20. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  21. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  22. job-id=90242576 | title=IT Application Support | company=PT. BNI MULTIFINANCE
+  23. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  24. job-id=89862509 | title=IT Support - Linux | company=PT Harmoni Toba Jaya (REKRUTMEN INDONESIA)
+  25. job-id=90242178 | title=IT Support & General Affair | company=PT Andira Agro Tbk.
+  26. job-id=90134604 | title=In-House IT Specialist | company=SELE INGREDIENTS, PT
+  27. job-id=89951849 | title=Alibaba Data Center IT Operations Technician | company=TITANICOM TECH LIMITED
+  28. job-id=89919471 | title=IT Support Staff | company=Kotrack Machinery Indonesia
+  29. job-id=90335743 | title=IT Marketing Support | company=PT. RAJA ANGIN INDONESIA
+  30. job-id=89920762 | title=IT Infrastructure Officer | company=-
+  31. job-id=90012459 | title=IT Network Support | company=PT. Sinta Prima Feedmill
+  32. job-id=90178875 | title=Staff IT | company=PT Mitra Raharjatama
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=29494871ea26d6a754d9dfb0be132f6250fe86ae'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=89920425)
+Job ID 89920425: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 2 (elapsed 17s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=90432244 | title=IT Staff | company=PT. Prodia Utama
+  3. job-id=90312147 | title=IT Support Team Leader | company=PT Visionet Data Internasional
+  4. job-id=89946709 | title=Supervisor IT Infrastructure | company=PT Cita Mineral Investindo Tbk
+  5. job-id=90147942 | title=IT Staff (Semarang) | company=PT Fumira
+  6. job-id=89910548 | title=Product IT Specialist | company=PT COBAS PERKAKAS JAYA
+  7. job-id=90273980 | title=IT Infrastruktur Staff | company=PT Jaya Wira Jerindo (Tribina Group)
+  8. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  9. job-id=89972346 | title=IT Staff | company=PT Vaksindo Satwa Nusantara
+  10. job-id=90338343 | title=IT Operation | company=PT Kamoro Maxima Integra
+  11. job-id=90121625 | title=IT Support Hardware Salatiga | company=PT Erela
+  12. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  13. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  14. job-id=90462475 | title=Network Engineer | company=PT PRIME AGRI RESOURCES Tbk
+  15. job-id=89919471 | title=IT Support Staff | company=Kotrack Machinery Indonesia
+  16. job-id=90229622 | title=IT Support & Network Staff | company=-
+  17. job-id=90242366 | title=IT System Network Engineer (Contract based) | company=PT ASURANSI SIMAS JIWA
+  18. job-id=90242576 | title=IT Application Support | company=PT. BNI MULTIFINANCE
+  19. job-id=89862509 | title=IT Support - Linux | company=PT Harmoni Toba Jaya (REKRUTMEN INDONESIA)
+  20. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  21. job-id=90242178 | title=IT Support & General Affair | company=PT Andira Agro Tbk.
+  22. job-id=90337291 | title=Senior IT Infrastructure Staff | company=PT Honda Trading Indonesia
+  23. job-id=90198299 | title=IT Support Specialist/Technician | company=PT Yonming Indonesia
+  24. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  25. job-id=90178875 | title=Staff IT | company=PT Mitra Raharjatama
+  26. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  27. job-id=90012247 | title=Staff IT Support | company=PT Global Jet Express
+  28. job-id=90386174 | title=IT Support Staff | company=PT Techno Indonesia
+  29. job-id=90134604 | title=In-House IT Specialist | company=SELE INGREDIENTS, PT
+  30. job-id=89951849 | title=Alibaba Data Center IT Operations Technician | company=TITANICOM TECH LIMITED
+  31. job-id=90335743 | title=IT Marketing Support | company=PT. RAJA ANGIN INDONESIA
+  32. job-id=90012459 | title=IT Network Support | company=PT. Sinta Prima Feedmill
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=2c561c368615d0c08d7d807a4b8c63ba4253ec9a'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90432244)
+Job ID 90432244: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff' | href='https://id.jobstreet.com/id/job/90432244?type=standard&ref=search-standalone&origin=jobCard#sol=0837dbe7af1d66b70ccd190cbfad567969449c02'
+Job ID 90432244: klik kartu loker (presisi) berhasil.
+Job ID 90432244: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 3/32 (job-id=90312147)
+Job ID 90312147: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Support Team Leader' | href='https://id.jobstreet.com/id/job/90312147?type=standard&ref=search-standalone&origin=jobCard#sol=b7de6607deddecf6069d9bb0f0cfb159125b5bf4'
+Job ID 90312147: klik kartu loker (presisi) berhasil.
+Job ID 90312147: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Support Team Leader
+  - Perusahaan : PT Visionet Data Internasional
+  - Lokasi     : Tangerang, Banten
+  - Apply URL  : https://id.jobstreet.com/id/job/90312147/apply?sol=b7de6607deddecf6069d9bb0f0cfb159125b5bf4
+  - URL apply? : YA
+Job ID 90312147: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Support Team Leader di PT Visionet Data Internasional
+  - href      : https://id.jobstreet.com/id/job/90312147/apply?sol=b7de6607deddecf6069d9bb0f0cfb159125b5bf4
+  - outerHTML : <a href="/id/job/90312147/apply?sol=b7de6607deddecf6069d9bb0f0cfb159125b5bf4" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90312147: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90312147/apply?sol=b7de6607deddecf6069d9bb0f0cfb159125b5bf4
+Job ID 90312147: buka link apply dari href...
+Job ID 90312147: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90312147/apply?sol=b7de6607deddecf6069d9bb0f0cfb159125b5bf4
+Job ID 90312147: pilih tanpa surat lamaran...
+Job ID 90312147: klik 'Lanjut'...
+Job ID 90312147: masuk halaman role requirements, mulai isi form...
+Native select: pilih opsi preferensi 2 years/2 tahun.
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90312147/apply/profile?sol=b7de6607deddecf6069d9bb0f0cfb159125b5bf4
+Job ID 90312147: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90312147: klik 'Lanjut' di halaman skill.
+Job ID 90312147: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90312147: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 2, total-job-page1: 32
+
+=== Siklus 3 (elapsed 38s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=89910548 | title=Product IT Specialist | company=PT COBAS PERKAKAS JAYA
+  3. job-id=90432244 | title=IT Staff | company=PT. Prodia Utama
+  4. job-id=90371473 | title=IT Support Staff | company=PT SOS Indonesia
+  5. job-id=90198299 | title=IT Support Specialist/Technician | company=PT Yonming Indonesia
+  6. job-id=89972346 | title=IT Staff | company=PT Vaksindo Satwa Nusantara
+  7. job-id=90242178 | title=IT Support & General Affair | company=PT Andira Agro Tbk.
+  8. job-id=90462475 | title=Network Engineer | company=PT PRIME AGRI RESOURCES Tbk
+  9. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  10. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  11. job-id=90134604 | title=In-House IT Specialist | company=SELE INGREDIENTS, PT
+  12. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  13. job-id=90337291 | title=Senior IT Infrastructure Staff | company=PT Honda Trading Indonesia
+  14. job-id=90242366 | title=IT System Network Engineer (Contract based) | company=PT ASURANSI SIMAS JIWA
+  15. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  16. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  17. job-id=90242576 | title=IT Application Support | company=PT. BNI MULTIFINANCE
+  18. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  19. job-id=89919471 | title=IT Support Staff | company=Kotrack Machinery Indonesia
+  20. job-id=89862509 | title=IT Support - Linux | company=PT Harmoni Toba Jaya (REKRUTMEN INDONESIA)
+  21. job-id=90229622 | title=IT Support & Network Staff | company=-
+  22. job-id=90217724 | title=Staff IT (Infrastructure & Network Administrator) | company=PT Cosmax Indonesia
+  23. job-id=90273980 | title=IT Infrastruktur Staff | company=PT Jaya Wira Jerindo (Tribina Group)
+  24. job-id=90012459 | title=IT Network Support | company=PT. Sinta Prima Feedmill
+  25. job-id=90121625 | title=IT Support Hardware Salatiga | company=PT Erela
+  26. job-id=90147942 | title=IT Staff (Semarang) | company=PT Fumira
+  27. job-id=89895420 | title=IT Helpdesk Engineer | company=PT Langit Metal Industry
+  28. job-id=89981815 | title=NOC & IT Support | company=PT Tele Globe Global
+  29. job-id=89924401 | title=IT SOFTWARE & HARDWARE | company=PT Sulinda Jaya Steel
+  30. job-id=90242214 | title=Apprenticeship Program for IT Support | company=PT Citra Tubindo Tbk
+  31. job-id=90248844 | title=IT Staff | company=PT Mitra Angkutan Sejati
+  32. job-id=90431010 | title=MANAGEMENT TRAINEE IT - BALI | company=PT Hartono Raya Motor (Surabaya)
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=8c6a5264a22f38f7bc503a3168193f13daa053a3'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=89910548)
+Job ID 89910548: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='Product IT Specialist' | href='https://id.jobstreet.com/id/job/89910548?type=standard&ref=search-standalone&origin=jobCard#sol=9e7abe6f0f78a84ab4fbafe0f8cbe98839e16020'
+Job ID 89910548: klik kartu loker (presisi) berhasil.
+Job ID 89910548: detail sebelum klik Lamaran Cepat
+  - Judul      : Product IT Specialist
+  - Perusahaan : PT COBAS PERKAKAS JAYA
+  - Lokasi     : Jakarta Barat, Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/89910548/apply?sol=9e7abe6f0f78a84ab4fbafe0f8cbe98839e16020
+  - URL apply? : YA
+Job ID 89910548: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai Product IT Specialist di PT COBAS PERKAKAS JAYA
+  - href      : https://id.jobstreet.com/id/job/89910548/apply?sol=9e7abe6f0f78a84ab4fbafe0f8cbe98839e16020
+  - outerHTML : <a href="/id/job/89910548/apply?sol=9e7abe6f0f78a84ab4fbafe0f8cbe98839e16020" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 89910548: href Lamaran Cepat -> https://id.jobstreet.com/id/job/89910548/apply?sol=9e7abe6f0f78a84ab4fbafe0f8cbe98839e16020
+Job ID 89910548: buka link apply dari href...
+Job ID 89910548: pindah ke halaman apply -> https://id.jobstreet.com/id/job/89910548/apply?sol=9e7abe6f0f78a84ab4fbafe0f8cbe98839e16020
+Job ID 89910548: pilih tanpa surat lamaran...
+Job ID 89910548: klik 'Lanjut'...
+Job ID 89910548: masuk halaman role requirements, mulai isi form...
+Native select: pilih opsi preferensi 2 years/2 tahun.
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+Error panel terdeteksi setelah klik 'Lanjut':
+  - Apakah kamu memiliki pengalaman teknis di bidang pra-penjualan? - Silakan buat seleksi
+  - Apakah kamu memiliki pengalaman technical writing? (mis. petunjuk penggunaan, manual produk untuk pengguna, dokumen spesifikasi teknis) - Silakan buat seleksi
+Radio heuristik: pertanyaan 'jobstreet cari lowongan cari profil sumber daya karir perusahaan komunitas bahas' -> ya
+Radio heuristik: pertanyaan 'apakah kamu memiliki pengalaman technical writing? (mis. petunjuk penggunaan, ma' -> ya
+Role requirements ronde-2: isi radio=0, dropdown=0, error-section=10
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/89910548/apply/profile?sol=9e7abe6f0f78a84ab4fbafe0f8cbe98839e16020
+Job ID 89910548: halaman 'Tambah keahlian' terdeteksi.
+Job ID 89910548: klik 'Lanjut' di halaman skill.
+Job ID 89910548: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 89910548: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 4 (elapsed 59s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=90432244 | title=IT Staff | company=PT. Prodia Utama
+  3. job-id=90242178 | title=IT Support & General Affair | company=PT Andira Agro Tbk.
+  4. job-id=90198299 | title=IT Support Specialist/Technician | company=PT Yonming Indonesia
+  5. job-id=90134604 | title=In-House IT Specialist | company=SELE INGREDIENTS, PT
+  6. job-id=90462475 | title=Network Engineer | company=PT PRIME AGRI RESOURCES Tbk
+  7. job-id=90371473 | title=IT Support Staff | company=PT SOS Indonesia
+  8. job-id=90242366 | title=IT System Network Engineer (Contract based) | company=PT ASURANSI SIMAS JIWA
+  9. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  10. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  11. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  12. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  13. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  14. job-id=90337291 | title=Senior IT Infrastructure Staff | company=PT Honda Trading Indonesia
+  15. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  16. job-id=90229622 | title=IT Support & Network Staff | company=-
+  17. job-id=89924401 | title=IT SOFTWARE & HARDWARE | company=PT Sulinda Jaya Steel
+  18. job-id=90190224 | title=Product Support | company=CV RAJAWALI BINA MAJU
+  19. job-id=90242576 | title=IT Application Support | company=PT. BNI MULTIFINANCE
+  20. job-id=90248844 | title=IT Staff | company=PT Mitra Angkutan Sejati
+  21. job-id=89981815 | title=NOC & IT Support | company=PT Tele Globe Global
+  22. job-id=89862509 | title=IT Support - Linux | company=PT Harmoni Toba Jaya (REKRUTMEN INDONESIA)
+  23. job-id=90147942 | title=IT Staff (Semarang) | company=PT Fumira
+  24. job-id=90217724 | title=Staff IT (Infrastructure & Network Administrator) | company=PT Cosmax Indonesia
+  25. job-id=90273980 | title=IT Infrastruktur Staff | company=PT Jaya Wira Jerindo (Tribina Group)
+  26. job-id=90012459 | title=IT Network Support | company=PT. Sinta Prima Feedmill
+  27. job-id=90242214 | title=Apprenticeship Program for IT Support | company=PT Citra Tubindo Tbk
+  28. job-id=89895420 | title=IT Helpdesk Engineer | company=PT Langit Metal Industry
+  29. job-id=90121625 | title=IT Support Hardware Salatiga | company=PT Erela
+  30. job-id=89951849 | title=Alibaba Data Center IT Operations Technician | company=TITANICOM TECH LIMITED
+  31. job-id=90431010 | title=MANAGEMENT TRAINEE IT - BALI | company=PT Hartono Raya Motor (Surabaya)
+  32. job-id=90338343 | title=IT Operation | company=PT Kamoro Maxima Integra
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=94e328c4cb32982f99758d6581051245a1415e5c'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90432244)
+Job ID 90432244: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff' | href='https://id.jobstreet.com/id/job/90432244?type=standard&ref=search-standalone&origin=jobCard#sol=2c899e559abcf68c48858e0e7b88f2331dcc4dab'
+Job ID 90432244: klik kartu loker (presisi) berhasil.
+Job ID 90432244: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 3/32 (job-id=90242178)
+Job ID 90242178: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Support & General Affair' | href='https://id.jobstreet.com/id/job/90242178?type=standard&ref=search-standalone&origin=jobCard#sol=5def7cb72b8bb23f863b5dd108b0ad9060b91a40'
+Job ID 90242178: klik kartu loker (presisi) berhasil.
+Job ID 90242178: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Support & General Affair
+  - Perusahaan : PT Andira Agro Tbk.
+  - Lokasi     : Jakarta Timur, Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/90242178/apply?sol=5def7cb72b8bb23f863b5dd108b0ad9060b91a40
+  - URL apply? : YA
+Job ID 90242178: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Support & General Affair di PT Andira Agro Tbk.
+  - href      : https://id.jobstreet.com/id/job/90242178/apply?sol=5def7cb72b8bb23f863b5dd108b0ad9060b91a40
+  - outerHTML : <a href="/id/job/90242178/apply?sol=5def7cb72b8bb23f863b5dd108b0ad9060b91a40" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90242178: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90242178/apply?sol=5def7cb72b8bb23f863b5dd108b0ad9060b91a40
+Job ID 90242178: buka link apply dari href...
+Job ID 90242178: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90242178/apply?sol=5def7cb72b8bb23f863b5dd108b0ad9060b91a40
+Job ID 90242178: pilih tanpa surat lamaran...
+Job ID 90242178: klik 'Lanjut'...
+Job ID 90242178: masuk halaman role requirements, mulai isi form...
+Native select: pilih opsi preferensi 2 years/2 tahun.
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90242178/apply/profile?sol=5def7cb72b8bb23f863b5dd108b0ad9060b91a40
+Job ID 90242178: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90242178: klik 'Lanjut' di halaman skill.
+Job ID 90242178: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90242178: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 2, total-job-page1: 32
+
+=== Siklus 5 (elapsed 82s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=90432244 | title=IT Staff | company=PT. Prodia Utama
+  3. job-id=90242366 | title=IT System Network Engineer (Contract based) | company=PT ASURANSI SIMAS JIWA
+  4. job-id=90198299 | title=IT Support Specialist/Technician | company=PT Yonming Indonesia
+  5. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  6. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  7. job-id=90371473 | title=IT Support Staff | company=PT SOS Indonesia
+  8. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  9. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  10. job-id=90337291 | title=Senior IT Infrastructure Staff | company=PT Honda Trading Indonesia
+  11. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  12. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  13. job-id=90248844 | title=IT Staff | company=PT Mitra Angkutan Sejati
+  14. job-id=90229622 | title=IT Support & Network Staff | company=-
+  15. job-id=89924401 | title=IT SOFTWARE & HARDWARE | company=PT Sulinda Jaya Steel
+  16. job-id=90190224 | title=Product Support | company=CV RAJAWALI BINA MAJU
+  17. job-id=89981815 | title=NOC & IT Support | company=PT Tele Globe Global
+  18. job-id=90242576 | title=IT Application Support | company=PT. BNI MULTIFINANCE
+  19. job-id=90012459 | title=IT Network Support | company=PT. Sinta Prima Feedmill
+  20. job-id=90147942 | title=IT Staff (Semarang) | company=PT Fumira
+  21. job-id=89862509 | title=IT Support - Linux | company=PT Harmoni Toba Jaya (REKRUTMEN INDONESIA)
+  22. job-id=90121625 | title=IT Support Hardware Salatiga | company=PT Erela
+  23. job-id=90217724 | title=Staff IT (Infrastructure & Network Administrator) | company=PT Cosmax Indonesia
+  24. job-id=89895420 | title=IT Helpdesk Engineer | company=PT Langit Metal Industry
+  25. job-id=90242214 | title=Apprenticeship Program for IT Support | company=PT Citra Tubindo Tbk
+  26. job-id=90273980 | title=IT Infrastruktur Staff | company=PT Jaya Wira Jerindo (Tribina Group)
+  27. job-id=89951849 | title=Alibaba Data Center IT Operations Technician | company=TITANICOM TECH LIMITED
+  28. job-id=90431010 | title=MANAGEMENT TRAINEE IT - BALI | company=PT Hartono Raya Motor (Surabaya)
+  29. job-id=89922561 | title=Part-Time IT | company=Coding Bee Academy
+  30. job-id=90338343 | title=IT Operation | company=PT Kamoro Maxima Integra
+  31. job-id=90012247 | title=Staff IT Support | company=PT Global Jet Express
+  32. job-id=90296362 | title=IT Network Engineer | company=Daikin Industries Indonesia
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=5e00d2644bb089186e4e428723a85f796b657c67'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90432244)
+Job ID 90432244: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 6 (elapsed 98s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=90185228 | title=IT Support staff | company=PT ITG Pointer Resources Indonesia
+  3. job-id=90248844 | title=IT Staff | company=PT Mitra Angkutan Sejati
+  4. job-id=89982017 | title=IT Functional Consultant | company=VIRTUAL PROPERTI PLUS
+  5. job-id=90077003 | title=IT Support/Sevice | company=PT Pratama Graha Semesta
+  6. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  7. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  8. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  9. job-id=90296362 | title=IT Network Engineer | company=Daikin Industries Indonesia
+  10. job-id=90198299 | title=IT Support Specialist/Technician | company=PT Yonming Indonesia
+  11. job-id=89924401 | title=IT SOFTWARE & HARDWARE | company=PT Sulinda Jaya Steel
+  12. job-id=90285895 | title=IT SUPPORT | company=PT BOGA MAKMUR BERJAYA ABADI
+  13. job-id=90440916 | title=IT Developer | company=PT Chandra Sakti Utama Leasing (Tiara Marga Trakindo Group)
+  14. job-id=90009957 | title=IT Staff | company=PT Intergastra Nusantara
+  15. job-id=90368975 | title=Helpdesk IT | company=PT Behaestex
+  16. job-id=90075918 | title=User Support | company=PT Charoen Pokphand Indonesia
+  17. job-id=90467782 | title=IT Supervisor | company=-
+  18. job-id=90440885 | title=IT Management Information System - Data Warehouse Engineer | company=OTO Group
+  19. job-id=90337292 | title=IT Software Staff | company=PT Megariamas Sentosa
+  20. job-id=90337240 | title=Junior IT Application Staff | company=PT Honda Trading Indonesia
+  21. job-id=90432768 | title=Technical Support | company=PT Mowilex Indonesia
+  22. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  23. job-id=90229622 | title=IT Support & Network Staff | company=-
+  24. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  25. job-id=90371473 | title=IT Support Staff | company=PT SOS Indonesia
+  26. job-id=90029700 | title=IT Support | company=PT Tritunas Bangun Perkasa
+  27. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  28. job-id=90386174 | title=IT Support Staff | company=PT Techno Indonesia
+  29. job-id=89981815 | title=NOC & IT Support | company=PT Tele Globe Global
+  30. job-id=90178875 | title=Staff IT | company=PT Mitra Raharjatama
+  31. job-id=89955220 | title=IT Executive | company=PT Bizlink Technology Indonesia
+  32. job-id=90217724 | title=Staff IT (Infrastructure & Network Administrator) | company=PT Cosmax Indonesia
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=a436326dd9c73c91fc79bae54ffedb893ee6dc60'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90185228)
+Job ID 90185228: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 7 (elapsed 115s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=90432244 | title=IT Staff | company=PT. Prodia Utama
+  3. job-id=90242366 | title=IT System Network Engineer (Contract based) | company=PT ASURANSI SIMAS JIWA
+  4. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  5. job-id=90198299 | title=IT Support Specialist/Technician | company=PT Yonming Indonesia
+  6. job-id=90371473 | title=IT Support Staff | company=PT SOS Indonesia
+  7. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  8. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  9. job-id=90337291 | title=Senior IT Infrastructure Staff | company=PT Honda Trading Indonesia
+  10. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  11. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  12. job-id=89924401 | title=IT SOFTWARE & HARDWARE | company=PT Sulinda Jaya Steel
+  13. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  14. job-id=90190224 | title=Product Support | company=CV RAJAWALI BINA MAJU
+  15. job-id=90229622 | title=IT Support & Network Staff | company=-
+  16. job-id=89981815 | title=NOC & IT Support | company=PT Tele Globe Global
+  17. job-id=90242576 | title=IT Application Support | company=PT. BNI MULTIFINANCE
+  18. job-id=90012459 | title=IT Network Support | company=PT. Sinta Prima Feedmill
+  19. job-id=90147942 | title=IT Staff (Semarang) | company=PT Fumira
+  20. job-id=90248844 | title=IT Staff | company=PT Mitra Angkutan Sejati
+  21. job-id=89862509 | title=IT Support - Linux | company=PT Harmoni Toba Jaya (REKRUTMEN INDONESIA)
+  22. job-id=90121625 | title=IT Support Hardware Salatiga | company=PT Erela
+  23. job-id=90217724 | title=Staff IT (Infrastructure & Network Administrator) | company=PT Cosmax Indonesia
+  24. job-id=89895420 | title=IT Helpdesk Engineer | company=PT Langit Metal Industry
+  25. job-id=90242214 | title=Apprenticeship Program for IT Support | company=PT Citra Tubindo Tbk
+  26. job-id=90273980 | title=IT Infrastruktur Staff | company=PT Jaya Wira Jerindo (Tribina Group)
+  27. job-id=89951849 | title=Alibaba Data Center IT Operations Technician | company=TITANICOM TECH LIMITED
+  28. job-id=90431010 | title=MANAGEMENT TRAINEE IT - BALI | company=PT Hartono Raya Motor (Surabaya)
+  29. job-id=89922561 | title=Part-Time IT | company=Coding Bee Academy
+  30. job-id=90338343 | title=IT Operation | company=PT Kamoro Maxima Integra
+  31. job-id=90012247 | title=Staff IT Support | company=PT Global Jet Express
+  32. job-id=90296362 | title=IT Network Engineer | company=Daikin Industries Indonesia
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=300a80fb1b9139f85c585b63bf4dcbabc9b87291'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90432244)
+Job ID 90432244: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff' | href='https://id.jobstreet.com/id/job/90432244?type=standard&ref=search-standalone&origin=jobCard#sol=49e253d5d422910097d50d53aebbb2803d1eae91'
+Job ID 90432244: klik kartu loker (presisi) berhasil.
+Job ID 90432244: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 3/32 (job-id=90242366)
+Job ID 90242366: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT System Network Engineer (Contract based)' | href='https://id.jobstreet.com/id/job/90242366?type=standard&ref=search-standalone&origin=jobCard#sol=98fcb801122eb8a000a7baa585319447e6ded761'
+Job ID 90242366: klik kartu loker (presisi) berhasil.
+Job ID 90242366: detail sebelum klik Lamaran Cepat
+  - Judul      : IT System Network Engineer (Contract based)
+  - Perusahaan : PT ASURANSI SIMAS JIWA
+  - Lokasi     : Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/90242366/apply?sol=98fcb801122eb8a000a7baa585319447e6ded761
+  - URL apply? : YA
+Job ID 90242366: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT System Network Engineer (Contract based) di PT ASURANSI SIMAS JIWA
+  - href      : https://id.jobstreet.com/id/job/90242366/apply?sol=98fcb801122eb8a000a7baa585319447e6ded761
+  - outerHTML : <a href="/id/job/90242366/apply?sol=98fcb801122eb8a000a7baa585319447e6ded761" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90242366: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90242366/apply?sol=98fcb801122eb8a000a7baa585319447e6ded761
+Job ID 90242366: buka link apply dari href...
+Job ID 90242366: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90242366/apply?sol=98fcb801122eb8a000a7baa585319447e6ded761
+Job ID 90242366: pilih tanpa surat lamaran...
+Job ID 90242366: klik 'Lanjut'...
+Job ID 90242366: masuk halaman role requirements, mulai isi form...
+Native select: pilih opsi preferensi 2 years/2 tahun.
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90242366/apply/profile?sol=98fcb801122eb8a000a7baa585319447e6ded761
+Job ID 90242366: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90242366: klik 'Lanjut' di halaman skill.
+Job ID 90242366: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90242366: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 2, total-job-page1: 32
+
+=== Siklus 8 (elapsed 137s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=90077003 | title=IT Support/Sevice | company=PT Pratama Graha Semesta
+  3. job-id=90248844 | title=IT Staff | company=PT Mitra Angkutan Sejati
+  4. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  5. job-id=89982017 | title=IT Functional Consultant | company=VIRTUAL PROPERTI PLUS
+  6. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  7. job-id=90009957 | title=IT Staff | company=PT Intergastra Nusantara
+  8. job-id=90185228 | title=IT Support staff | company=PT ITG Pointer Resources Indonesia
+  9. job-id=90285895 | title=IT SUPPORT | company=PT BOGA MAKMUR BERJAYA ABADI
+  10. job-id=90296362 | title=IT Network Engineer | company=Daikin Industries Indonesia
+  11. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  12. job-id=90368975 | title=Helpdesk IT | company=PT Behaestex
+  13. job-id=89924401 | title=IT SOFTWARE & HARDWARE | company=PT Sulinda Jaya Steel
+  14. job-id=90440916 | title=IT Developer | company=PT Chandra Sakti Utama Leasing (Tiara Marga Trakindo Group)
+  15. job-id=90075918 | title=User Support | company=PT Charoen Pokphand Indonesia
+  16. job-id=90467782 | title=IT Supervisor | company=-
+  17. job-id=90178875 | title=Staff IT | company=PT Mitra Raharjatama
+  18. job-id=90440885 | title=IT Management Information System - Data Warehouse Engineer | company=OTO Group
+  19. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  20. job-id=90337240 | title=Junior IT Application Staff | company=PT Honda Trading Indonesia
+  21. job-id=90337292 | title=IT Software Staff | company=PT Megariamas Sentosa
+  22. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  23. job-id=90432768 | title=Technical Support | company=PT Mowilex Indonesia
+  24. job-id=90229622 | title=IT Support & Network Staff | company=-
+  25. job-id=90029700 | title=IT Support | company=PT Tritunas Bangun Perkasa
+  26. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  27. job-id=90386174 | title=IT Support Staff | company=PT Techno Indonesia
+  28. job-id=89981815 | title=NOC & IT Support | company=PT Tele Globe Global
+  29. job-id=89830617 | title=IT Support Network | company=PT TEKNOLOGI ANGKASA MAKMUR ABADI
+  30. job-id=90371473 | title=IT Support Staff | company=PT SOS Indonesia
+  31. job-id=89955220 | title=IT Executive | company=PT Bizlink Technology Indonesia
+  32. job-id=90217724 | title=Staff IT (Infrastructure & Network Administrator) | company=PT Cosmax Indonesia
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=d926df4fd0dbee75f7d188b7215aa7d7a8f53097'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90077003)
+Job ID 90077003: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 9 (elapsed 152s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=90432244 | title=IT Staff | company=PT. Prodia Utama
+  3. job-id=90088086 | title=IT SUPPORT | company=PT Susanti Megah
+  4. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  5. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  6. job-id=90337291 | title=Senior IT Infrastructure Staff | company=PT Honda Trading Indonesia
+  7. job-id=89924401 | title=IT SOFTWARE & HARDWARE | company=PT Sulinda Jaya Steel
+  8. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  9. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  10. job-id=90371473 | title=IT Support Staff | company=PT SOS Indonesia
+  11. job-id=90190224 | title=Product Support | company=CV RAJAWALI BINA MAJU
+  12. job-id=90248844 | title=IT Staff | company=PT Mitra Angkutan Sejati
+  13. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  14. job-id=90147942 | title=IT Staff (Semarang) | company=PT Fumira
+  15. job-id=89981815 | title=NOC & IT Support | company=PT Tele Globe Global
+  16. job-id=90242576 | title=IT Application Support | company=PT. BNI MULTIFINANCE
+  17. job-id=90273980 | title=IT Infrastruktur Staff | company=PT Jaya Wira Jerindo (Tribina Group)
+  18. job-id=90012459 | title=IT Network Support | company=PT. Sinta Prima Feedmill
+  19. job-id=89862509 | title=IT Support - Linux | company=PT Harmoni Toba Jaya (REKRUTMEN INDONESIA)
+  20. job-id=89895420 | title=IT Helpdesk Engineer | company=PT Langit Metal Industry
+  21. job-id=90242214 | title=Apprenticeship Program for IT Support | company=PT Citra Tubindo Tbk
+  22. job-id=90229622 | title=IT Support & Network Staff | company=-
+  23. job-id=90121625 | title=IT Support Hardware Salatiga | company=PT Erela
+  24. job-id=89951849 | title=Alibaba Data Center IT Operations Technician | company=TITANICOM TECH LIMITED
+  25. job-id=90217724 | title=Staff IT (Infrastructure & Network Administrator) | company=PT Cosmax Indonesia
+  26. job-id=89922561 | title=Part-Time IT | company=Coding Bee Academy
+  27. job-id=90338343 | title=IT Operation | company=PT Kamoro Maxima Integra
+  28. job-id=90223677 | title=IT & Infrastruktur officer | company=PT Citarasa Kuliner Indonesia (Cimol Bojot AA)
+  29. job-id=90431010 | title=MANAGEMENT TRAINEE IT - BALI | company=PT Hartono Raya Motor (Surabaya)
+  30. job-id=90296362 | title=IT Network Engineer | company=Daikin Industries Indonesia
+  31. job-id=90009957 | title=IT Staff | company=PT Intergastra Nusantara
+  32. job-id=90368975 | title=Helpdesk IT | company=PT Behaestex
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=83152f427284290e2c0e7e28b8e6f2a7865dfc2f'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90432244)
+Job ID 90432244: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff' | href='https://id.jobstreet.com/id/job/90432244?type=standard&ref=search-standalone&origin=jobCard#sol=064fb24457d2ab51aa633a7c9464a38129247168'
+Job ID 90432244: klik kartu loker (presisi) berhasil.
+Job ID 90432244: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 3/32 (job-id=90088086)
+Job ID 90088086: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT SUPPORT' | href='https://id.jobstreet.com/id/job/90088086?type=standard&ref=search-standalone&origin=jobCard#sol=d511b2082391f650288d64f1a40e8325a68b81e6'
+Job ID 90088086: klik kartu loker (presisi) berhasil.
+Job ID 90088086: detail sebelum klik Lamaran Cepat
+  - Judul      : IT SUPPORT
+  - Perusahaan : PT Susanti Megah
+  - Lokasi     : Gresik, Jawa Timur
+  - Apply URL  : https://id.jobstreet.com/id/job/90088086/apply?sol=d511b2082391f650288d64f1a40e8325a68b81e6
+  - URL apply? : YA
+Job ID 90088086: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT SUPPORT di PT Susanti Megah
+  - href      : https://id.jobstreet.com/id/job/90088086/apply?sol=d511b2082391f650288d64f1a40e8325a68b81e6
+  - outerHTML : <a href="/id/job/90088086/apply?sol=d511b2082391f650288d64f1a40e8325a68b81e6" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90088086: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90088086/apply?sol=d511b2082391f650288d64f1a40e8325a68b81e6
+Job ID 90088086: buka link apply dari href...
+Job ID 90088086: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90088086/apply?sol=d511b2082391f650288d64f1a40e8325a68b81e6
+Job ID 90088086: pilih tanpa surat lamaran...
+Job ID 90088086: klik 'Lanjut'...
+Job ID 90088086: masuk halaman role requirements, mulai isi form...
+Native select: pilih opsi preferensi 2 years/2 tahun.
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90088086/apply/profile?sol=d511b2082391f650288d64f1a40e8325a68b81e6
+Job ID 90088086: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90088086: klik 'Lanjut' di halaman skill.
+Job ID 90088086: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90088086: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 2, total-job-page1: 32
+
+=== Siklus 10 (elapsed 170s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Daftar loker terdeteksi di page 1:
+  1. job-id=90466946 | title=IT Staff/ IT Support | company=PT. Alpha Magsaysay International
+  2. job-id=90119099 | title=IT Support | company=PT LG ELectronics Indonesia
+  3. job-id=89982017 | title=IT Functional Consultant | company=VIRTUAL PROPERTI PLUS
+  4. job-id=90009957 | title=IT Staff | company=PT Intergastra Nusantara
+  5. job-id=90003534 | title=IT Solution Engineer | company=PT. Halcom Integrated Solution
+  6. job-id=90077003 | title=IT Support/Sevice | company=PT Pratama Graha Semesta
+  7. job-id=90248844 | title=IT Staff | company=PT Mitra Angkutan Sejati
+  8. job-id=90185228 | title=IT Support staff | company=PT ITG Pointer Resources Indonesia
+  9. job-id=90076657 | title=IT Support (Site) Group Leader | company=SAMORA GROUP
+  10. job-id=90296362 | title=IT Network Engineer | company=Daikin Industries Indonesia
+  11. job-id=90285895 | title=IT SUPPORT | company=PT BOGA MAKMUR BERJAYA ABADI
+  12. job-id=89924401 | title=IT SOFTWARE & HARDWARE | company=PT Sulinda Jaya Steel
+  13. job-id=90075918 | title=User Support | company=PT Charoen Pokphand Indonesia
+  14. job-id=90368975 | title=Helpdesk IT | company=PT Behaestex
+  15. job-id=90467782 | title=IT Supervisor | company=-
+  16. job-id=90440916 | title=IT Developer | company=PT Chandra Sakti Utama Leasing (Tiara Marga Trakindo Group)
+  17. job-id=90178875 | title=Staff IT | company=PT Mitra Raharjatama
+  18. job-id=90440885 | title=IT Management Information System - Data Warehouse Engineer | company=OTO Group
+  19. job-id=90337240 | title=Junior IT Application Staff | company=PT Honda Trading Indonesia
+  20. job-id=90337292 | title=IT Software Staff | company=PT Megariamas Sentosa
+  21. job-id=90417702 | title=IT System & Network Engineer (Sr. Staff) | company=-
+  22. job-id=90432768 | title=Technical Support | company=PT Mowilex Indonesia
+  23. job-id=90029700 | title=IT Support | company=PT Tritunas Bangun Perkasa
+  24. job-id=90229622 | title=IT Support & Network Staff | company=-
+  25. job-id=90345570 | title=IT Staff | company=PT. TPINC TRADING JAKARTA
+  26. job-id=89981815 | title=NOC & IT Support | company=PT Tele Globe Global
+  27. job-id=89955220 | title=IT Executive | company=PT Bizlink Technology Indonesia
+  28. job-id=90217724 | title=Staff IT (Infrastructure & Network Administrator) | company=PT Cosmax Indonesia
+  29. job-id=90386174 | title=IT Support Staff | company=PT Techno Indonesia
+  30. job-id=89830617 | title=IT Support Network | company=PT TEKNOLOGI ANGKASA MAKMUR ABADI
+  31. job-id=90338343 | title=IT Operation | company=PT Kamoro Maxima Integra
+  32. job-id=90437316 | title=IT Product Specialist | company=PT. Berca Hardayaperkasa
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: kartu loker diklik via a[data-testid='job-list-item-link-overlay'][target='_self'] | title='IT Staff/ IT Support' | href='https://id.jobstreet.com/id/job/90466946?type=standard&ref=search-standalone&origin=jobCard#sol=4892566cc297a3e3beaec5f8b0db7710e0f7e5c5'
+Job ID 90466946: klik kartu loker (presisi) berhasil.
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90119099)

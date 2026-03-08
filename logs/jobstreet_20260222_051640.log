@@ -1,0 +1,115 @@
+Mode loop aktif: target 1 job non-skip per siklus, durasi total 10800 detik.
+
+=== Siklus 1 (elapsed 0s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90448965)
+Job ID 90448965: klik kartu loker...
+Job ID 90448965: elemen 'Lamaran Cepat' tidak ditemukan (a[data-automation='job-detail-apply'] + teks 'Lamaran Cepat').
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 0, total-job-page1: 32
+
+=== Siklus 2 (elapsed 34s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker...
+Job ID 90466946: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Staff/ IT Support
+  - Perusahaan : PT. Alpha Magsaysay International
+  - Lokasi     : Jakarta Pusat, Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/90466946/apply?sol=93bb9056a1efc369b178467758c14f2cd34e76f1
+  - URL apply? : YA
+Job ID 90466946: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Staff/ IT Support di PT. Alpha Magsaysay International
+  - href      : https://id.jobstreet.com/id/job/90466946/apply?sol=93bb9056a1efc369b178467758c14f2cd34e76f1
+  - outerHTML : <a href="/id/job/90466946/apply?sol=93bb9056a1efc369b178467758c14f2cd34e76f1" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90466946: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90466946/apply?sol=93bb9056a1efc369b178467758c14f2cd34e76f1
+Job ID 90466946: buka link apply dari href...
+Job ID 90466946: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90466946/apply?sol=93bb9056a1efc369b178467758c14f2cd34e76f1
+Job ID 90466946: pilih tanpa surat lamaran...
+Job ID 90466946: klik 'Lanjut'...
+Job ID 90466946: masuk halaman role requirements, mulai isi form...
+Native select: pilih opsi preferensi 2 years/2 tahun.
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+Error panel terdeteksi setelah klik 'Lanjut':
+  - Which of the following Microsoft Office products are you experienced with? - Silakan buat seleksi
+  - Which of the following languages are you fluent in? - Silakan buat seleksi
+  - Are you willing to undergo a pre-employment background check? - Silakan buat seleksi
+Radio heuristik: pertanyaan 'are you willing to undergo a pre-employment background check? yes no silakan bua' -> ya
+Role requirements ronde-2: isi radio=0, dropdown=0, error-section=3
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90466946/apply/profile?sol=93bb9056a1efc369b178467758c14f2cd34e76f1
+Job ID 90466946: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90466946: klik 'Lanjut' di halaman skill.
+Job ID 90466946: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90466946: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 0, total-job-page1: 32
+
+=== Siklus 3 (elapsed 63s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=89770481)
+Job ID 89770481: kartu loker tidak ditemukan.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 4 (elapsed 87s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90432244)
+Job ID 90432244: kartu loker tidak ditemukan.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 5 (elapsed 113s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90245943)
+Job ID 90245943: klik kartu loker...
+Job ID 90245943: detail sebelum klik Lamaran Cepat
+  - Judul      : IT TECHNICAL & SUPPORT SPECIALIST
+  - Perusahaan : PT CENTRIN AFATEC
+  - Lokasi     : Jakarta Pusat, Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/90245943/apply?sol=862297551b9ba3afe96cfc1f4737eb9d6a14269b
+  - URL apply? : YA
+Job ID 90245943: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT TECHNICAL & SUPPORT SPECIALIST di PT CENTRIN AFATEC
+  - href      : https://id.jobstreet.com/id/job/90245943/apply?sol=862297551b9ba3afe96cfc1f4737eb9d6a14269b
+  - outerHTML : <a href="/id/job/90245943/apply?sol=862297551b9ba3afe96cfc1f4737eb9d6a14269b" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90245943: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90245943/apply?sol=862297551b9ba3afe96cfc1f4737eb9d6a14269b
+Job ID 90245943: buka link apply dari href...
+Job ID 90245943: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90245943/apply?sol=862297551b9ba3afe96cfc1f4737eb9d6a14269b
+Job ID 90245943: pilih tanpa surat lamaran...
+Job ID 90245943: klik 'Lanjut'...
+Job ID 90245943: masuk halaman role requirements, mulai isi form...
+Native select: pilih opsi preferensi 2 years/2 tahun.
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90245943/apply/profile?sol=862297551b9ba3afe96cfc1f4737eb9d6a14269b
+Job ID 90245943: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90245943: klik 'Lanjut' di halaman skill.
+Job ID 90245943: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90245943: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 0, total-job-page1: 32
+
+=== Siklus 6 (elapsed 136s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90432244)
+Job ID 90432244: kartu loker tidak ditemukan.

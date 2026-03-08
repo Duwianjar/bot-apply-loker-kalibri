@@ -1,0 +1,171 @@
+Mode loop aktif: target 1 job non-skip per siklus, durasi total 10800 detik.
+
+=== Siklus 1 (elapsed 0s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90009957)
+Job ID 90009957: klik kartu loker (presisi)...
+Job ID 90009957: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Staff
+  - Perusahaan : PT Intergastra Nusantara
+  - Lokasi     : Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/90009957/apply?sol=e8c3f32235df99dfc1dc1902cc3374780628d6cb
+  - URL apply? : YA
+Job ID 90009957: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Staff di PT Intergastra Nusantara
+  - href      : https://id.jobstreet.com/id/job/90009957/apply?sol=e8c3f32235df99dfc1dc1902cc3374780628d6cb
+  - outerHTML : <a href="/id/job/90009957/apply?sol=e8c3f32235df99dfc1dc1902cc3374780628d6cb" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90009957: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90009957/apply?sol=e8c3f32235df99dfc1dc1902cc3374780628d6cb
+Job ID 90009957: buka link apply dari href...
+Job ID 90009957: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90009957/apply?sol=e8c3f32235df99dfc1dc1902cc3374780628d6cb
+Job ID 90009957: pilih tanpa surat lamaran...
+Job ID 90009957: klik 'Lanjut'...
+Job ID 90009957: masuk halaman role requirements, mulai isi form...
+Role requirements ronde-1: isi radio=0, dropdown=0, error-section=0
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90009957/apply/profile?sol=e8c3f32235df99dfc1dc1902cc3374780628d6cb
+Job ID 90009957: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90009957: klik 'Lanjut' di halaman skill.
+Job ID 90009957: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90009957: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 2 (elapsed 16s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90282402)
+Job ID 90282402: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 3 (elapsed 29s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90185228)
+Job ID 90185228: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 4 (elapsed 43s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90121616)
+Job ID 90121616: klik kartu loker (presisi)...
+Job ID 90121616: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Compliance & Helpdesk Staff
+  - Perusahaan : PT Bank Oke Indonesia, tbk
+  - Lokasi     : Jakarta Pusat, Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/90121616/apply?sol=c02f256e0a70988afb1497a38fb71bd9194c1bb9
+  - URL apply? : YA
+Job ID 90121616: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Compliance & Helpdesk Staff di PT Bank Oke Indonesia, tbk
+  - href      : https://id.jobstreet.com/id/job/90121616/apply?sol=c02f256e0a70988afb1497a38fb71bd9194c1bb9
+  - outerHTML : <a href="/id/job/90121616/apply?sol=c02f256e0a70988afb1497a38fb71bd9194c1bb9" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90121616: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90121616/apply?sol=c02f256e0a70988afb1497a38fb71bd9194c1bb9
+Job ID 90121616: buka link apply dari href...
+Job ID 90121616: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90121616/apply?sol=c02f256e0a70988afb1497a38fb71bd9194c1bb9
+Job ID 90121616: pilih tanpa surat lamaran...
+Job ID 90121616: klik 'Lanjut'...
+Job ID 90121616: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90121616: klik 'Lanjut' di halaman skill.
+Job ID 90121616: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90121616: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 5 (elapsed 57s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90185228)
+Job ID 90185228: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 6 (elapsed 70s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90436527)
+Job ID 90436527: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 7 (elapsed 83s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90332735)
+Job ID 90332735: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 8 (elapsed 97s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90077003)
+Job ID 90077003: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 9 (elapsed 111s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90077003)
+Job ID 90077003: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 10 (elapsed 125s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90439122)
+Job ID 90439122: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 11 (elapsed 139s) ===
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90466946)
+Job ID 90466946: klik kartu loker (presisi)...
+Job ID 90466946: skip, sudah pernah melamar -> Kamu telah mengirimkan lamaran pada 21 Feb 2026
+Proses job 2/32 (job-id=90336942)
+Job ID 90336942: kartu loker tidak ditemukan / gagal diklik presisi.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 0, gagal: 1, skip-sudah-melamar: 1, total-job-page1: 32
+
+=== Siklus 12 (elapsed 153s) ===
+Membuka halaman JobStreet IT...

@@ -1,0 +1,34 @@
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Diproses: 1 job.
+Proses job 1/1 (job-id=90185192)
+Job ID 90185192: klik kartu loker...
+Job ID 90185192: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Support
+  - Perusahaan : PT Transisi Mobile Indonesia
+  - Lokasi     : Jakarta Pusat, Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/90185192/apply?sol=84f127da0bc6ba4377ee89bd05562df55889d9a6
+  - URL apply? : YA
+Job ID 90185192: klik 'Lamaran Cepat'...
+Job ID 90185192: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Support di PT Transisi Mobile Indonesia
+  - href      : https://id.jobstreet.com/id/job/90185192/apply?sol=84f127da0bc6ba4377ee89bd05562df55889d9a6
+  - outerHTML : <a href="/id/job/90185192/apply?sol=84f127da0bc6ba4377ee89bd05562df55889d9a6" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90185192: klik 'Lamaran Cepat' percobaan 1 belum masuk /apply.
+Job ID 90185192: target klik Lamaran Cepat (attempt=2)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Support di PT Transisi Mobile Indonesia
+  - href      : https://id.jobstreet.com/id/job/90185192/apply?sol=84f127da0bc6ba4377ee89bd05562df55889d9a6
+  - outerHTML : <a href="/id/job/90185192/apply?sol=84f127da0bc6ba4377ee89bd05562df55889d9a6" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90185192: klik 'Lamaran Cepat' percobaan 2 belum masuk /apply.
+Job ID 90185192: target klik Lamaran Cepat (attempt=3)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Support di PT Transisi Mobile Indonesia
+  - href      : https://id.jobstreet.com/id/job/90185192/apply?sol=84f127da0bc6ba4377ee89bd05562df55889d9a6
+  - outerHTML : <a href="/id/job/90185192/apply?sol=84f127da0bc6ba4377ee89bd05562df55889d9a6" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90185192: klik 'Lamaran Cepat' percobaan 3 belum masuk /apply.
+Job ID 90185192: gagal pindah ke halaman /apply setelah klik 'Lamaran Cepat'.
+Flow JobStreet selesai. Berhasil: 0/1, skip-sudah-melamar: 0

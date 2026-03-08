@@ -1,0 +1,27 @@
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Diproses: 1 job.
+Proses job 1/1 (job-id=90416622)
+Job ID 90416622: klik kartu loker...
+Job ID 90416622: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Helpdesk Support
+  - Perusahaan : Faithfull The Brand
+  - Lokasi     : Badung, Bali
+  - Apply URL  : https://id.jobstreet.com/id/job/90416622/apply?sol=82c1436e8c412dba09bc9e575edc1201a4fc787f
+  - URL apply? : YA
+Job ID 90416622: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Helpdesk Support di Faithfull The Brand
+  - href      : https://id.jobstreet.com/id/job/90416622/apply?sol=82c1436e8c412dba09bc9e575edc1201a4fc787f
+  - outerHTML : <a href="/id/job/90416622/apply?sol=82c1436e8c412dba09bc9e575edc1201a4fc787f" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90416622: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90416622/apply?sol=82c1436e8c412dba09bc9e575edc1201a4fc787f
+Job ID 90416622: buka link apply dari href...
+Job ID 90416622: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90416622/apply?sol=82c1436e8c412dba09bc9e575edc1201a4fc787f
+Job ID 90416622: pilih tanpa surat lamaran...
+Job ID 90416622: klik 'Lanjut'...
+Job ID 90416622: masuk halaman role requirements, mulai isi form...
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+Native select: pilih opsi preferensi '2 years'.
+Native select: pilih opsi preferensi '2 years'.
+Job ID 90416622: gagal, name 'driver' is not defined
+Flow JobStreet selesai. Berhasil: 0/1, skip-sudah-melamar: 0

@@ -1,0 +1,27 @@
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Diproses: 1 job.
+Proses job 1/1 (job-id=90130068)
+Job ID 90130068: klik kartu loker...
+Job ID 90130068: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Staff / IT Officer
+  - Perusahaan : PT. FM Global Logistics
+  - Lokasi     : Jakarta Raya
+  - Apply URL  : https://id.jobstreet.com/id/job/90130068/apply?sol=519d09f5c793229c7685d1ee44bd3f74fc1bac72
+  - URL apply? : YA
+Job ID 90130068: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Staff / IT Officer di PT. FM Global Logistics
+  - href      : https://id.jobstreet.com/id/job/90130068/apply?sol=519d09f5c793229c7685d1ee44bd3f74fc1bac72
+  - outerHTML : <a href="/id/job/90130068/apply?sol=519d09f5c793229c7685d1ee44bd3f74fc1bac72" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90130068: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90130068/apply?sol=519d09f5c793229c7685d1ee44bd3f74fc1bac72
+Job ID 90130068: buka link apply dari href...
+Job ID 90130068: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90130068/apply?sol=519d09f5c793229c7685d1ee44bd3f74fc1bac72
+Job ID 90130068: pilih tanpa surat lamaran...
+Job ID 90130068: klik 'Lanjut'...
+Job ID 90130068: masuk halaman role requirements, mulai isi form...
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+Role requirements ronde-2: isi radio=0, dropdown=1, error-section=10
+Role requirements ronde-3: isi radio=0, dropdown=1, error-section=10
+Role requirements ronde-4: isi radio=0, dropdown=1, error-section=10
+Role requirements ronde-5: isi radio=0, dropdown=1, error-section=10

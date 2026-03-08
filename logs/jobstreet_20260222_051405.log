@@ -1,0 +1,32 @@
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Target proses: 1 job (skip tidak dihitung).
+Proses job 1/32 (job-id=90257691)
+Job ID 90257691: klik kartu loker...
+Job ID 90257691: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Support
+  - Perusahaan : PT Forin Transbuana Logistics
+  - Lokasi     : Bali
+  - Apply URL  : https://id.jobstreet.com/id/job/90257691/apply?sol=fc3ee129f29dae6d45fd275ccc8c7a5eeceae5f3
+  - URL apply? : YA
+Job ID 90257691: target klik Lamaran Cepat (attempt=1)
+  - tag       : a
+  - text      : Lamaran Cepat
+  - aria-label: Kirim lamaran sebagai IT Support di PT Forin Transbuana Logistics
+  - href      : https://id.jobstreet.com/id/job/90257691/apply?sol=fc3ee129f29dae6d45fd275ccc8c7a5eeceae5f3
+  - outerHTML : <a href="/id/job/90257691/apply?sol=fc3ee129f29dae6d45fd275ccc8c7a5eeceae5f3" class="n98m2w0 n98m2wg n98m2w8  n98m2w0 _1f90a1x5 _1f90a1x59 _1f90a1xp _1f90a1x65 _1f90a1xh u8mdno0" data-automation="job-detail-apply" aria-l...
+Job ID 90257691: href Lamaran Cepat -> https://id.jobstreet.com/id/job/90257691/apply?sol=fc3ee129f29dae6d45fd275ccc8c7a5eeceae5f3
+Job ID 90257691: buka link apply dari href...
+Job ID 90257691: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90257691/apply?sol=fc3ee129f29dae6d45fd275ccc8c7a5eeceae5f3
+Job ID 90257691: pilih tanpa surat lamaran...
+Job ID 90257691: klik 'Lanjut'...
+Job ID 90257691: masuk halaman role requirements, mulai isi form...
+Native select: pilih opsi preferensi 2 years/2 tahun.
+Role requirements ronde-1: isi radio=0, dropdown=1, error-section=0
+[92mSemua pertanyaan terisi, tidak ada error panel.[0m
+Role requirements selesai, pindah ke URL: https://id.jobstreet.com/id/job/90257691/apply/profile?sol=fc3ee129f29dae6d45fd275ccc8c7a5eeceae5f3
+Job ID 90257691: halaman 'Tambah keahlian' terdeteksi.
+Job ID 90257691: klik 'Lanjut' di halaman skill.
+Job ID 90257691: tombol 'Kirim lamaran' ditemukan, klik submit.
+Job ID 90257691: submit 'Kirim lamaran' sudah diklik.
+Target 1 job non-skip sudah tercapai.
+Flow JobStreet selesai. Berhasil: 1, gagal: 0, skip-sudah-melamar: 0, total-job-page1: 32

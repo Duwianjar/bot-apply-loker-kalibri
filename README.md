@@ -177,6 +177,24 @@ Script ini butuh Chrome berjalan di port `9222` agar bisa terhubung ke sesi brow
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-jobseek
 ```
 
+Catatan (macOS) jika ingin pakai **profile Chrome yang sudah login**:
+- Chrome menolak `--remote-debugging-port` jika `--user-data-dir` menunjuk ke data default.
+- Solusinya: copy data Chrome ke folder baru, lalu jalankan dengan `--profile-directory="Profile 2"`.
+
+```bash
+# 1) Copy data Chrome ke folder non-default
+rsync -a "$HOME/Library/Application Support/Google/Chrome/" /tmp/chrome-jobseek/
+
+# 2) Jalankan Chrome debug dengan profile yang diinginkan
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+  --remote-debugging-port=9222 \
+  --user-data-dir=/tmp/chrome-jobseek \
+  --profile-directory="Profile 2"
+
+# 3) Cek port (harus keluar JSON)
+curl http://127.0.0.1:9222/json/version
+```
+
 ### Windows
 ```powershell
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome-jobseek"

@@ -1,0 +1,24 @@
+Membuka halaman JobStreet IT...
+Total job terdeteksi: 32. Diproses: 1 job.
+Proses job 1/1 (job-id=90469021)
+Job ID 90469021: klik kartu loker...
+Job ID 90469021: detail sebelum klik Lamaran Cepat
+  - Judul      : IT Support Supervisor
+  - Perusahaan : Siloam Hospitals Group (Tbk)
+  - Lokasi     : Karawaci, Banten
+  - Apply URL  : https://id.jobstreet.com/id/job/90469021/apply?sol=16c345b3b7454396f7ad3a1284a5111a0195703e
+  - URL apply? : YA
+Job ID 90469021: klik 'Lamaran Cepat'...
+Job ID 90469021: klik 'Lamaran Cepat' percobaan 1 belum masuk /apply.
+Job ID 90469021: klik 'Lamaran Cepat' percobaan 2 belum masuk /apply.
+Job ID 90469021: pindah ke halaman apply -> https://id.jobstreet.com/id/job/90469021/apply?sol=16c345b3b7454396f7ad3a1284a5111a0195703e
+Job ID 90469021: pilih tanpa surat lamaran...
+Job ID 90469021: klik 'Lanjut'...
+Job ID 90469021: masuk halaman role requirements, mulai isi form...
+Role requirements ronde-1: isi radio=0, dropdown=1
+Role requirements ronde-2: isi radio=0, dropdown=1
+Role requirements ronde-3: isi radio=0, dropdown=1
+Role requirements ronde-4: isi radio=0, dropdown=1
+Role requirements ronde-5: isi radio=0, dropdown=1
+Job ID 90469021: form role requirements belum selesai terisi.
+Flow JobStreet selesai. Berhasil: 0/1, skip-sudah-melamar: 0
